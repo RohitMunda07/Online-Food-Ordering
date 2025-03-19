@@ -64,11 +64,11 @@ export default function Login() {
                             Login
                         </button>
                         
-                        <fieldset className='mt-3 border-gray-400 border-t-2 px-'>
+                        {/* <fieldset className='mt-3 border-gray-400 border-t-2 px-'>
                             <legend className='mt-5 px-3'>or</legend>
 
                             <button style={{ backgroundColor: 'red' }} className='mt-5 w-full'>Continue with Gmail</button>
-                        </fieldset>
+                        </fieldset> */}
 
                         <p className='mt-5 text-center'>
                             Don't have account?
