@@ -11,7 +11,7 @@ export default function About() {
         <>
             <div className="relative container mx-auto px-20">
                 <div>
-                    <img className="absolute top-0 -left-[35rem] h-[45rem] w-[45rem]" src="./src/assets/about-background.png" alt="top-bg" />
+                    <img className="absolute top-0 -left-[35rem] h-[45rem] w-[45rem]" src="/about-background.png" alt="top-bg" />
                 </div>
 
                 <div className="flex flex-row-reverse items- gap-8 justify-between relative z-10">
@@ -47,7 +47,7 @@ export default function About() {
 
                     {/* image */}
                     <div className="pt-30">
-                        <img className="relative z-10" src="./src/assets/about-background-image.png" alt="Bowl-Imgage" />
+                        <img className="relative z-10" src="/about-background-image.png" alt="Bowl-Imgage" />
 
                     </div>
                 </div>

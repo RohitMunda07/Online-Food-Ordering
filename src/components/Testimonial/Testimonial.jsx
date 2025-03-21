@@ -18,7 +18,7 @@ export default function Testimonial() {
                     {/* Card 1 */}
                     <div className='border-0 rounded-4xl bg-white flex flex-col items-center max-w-2xl px-5 py-2 cursor-pointer'>
                         <div>
-                            <img src="./src/assets/john-doe-image.png" alt="" />
+                            <img src="/john-doe-image.png" alt="" />
                         </div>
                         <p className='mt-10 text-center'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eligendi! Error  odio! Quo velit culpa doloremque vel unde, praesentium voluptates quibusdam eveniet libero delectus laudantium? Sunt labore impedit amet alias quaerat tempore dolor.

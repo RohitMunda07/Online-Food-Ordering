@@ -29,7 +29,7 @@ export default function Hero() {
 
                     {/* image */}
                     <div>
-                        <img className="relative" src="./src/assets/home-banner-image.png" alt="Bowl-Imgage" />
+                        <img className="relative" src="/home-banner-image.png" alt="Bowl-Imgage" />
 
                     </div>
                 </div>

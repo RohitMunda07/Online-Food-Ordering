@@ -24,7 +24,7 @@ export default function Header() {
                     <div className="flex flex-row justify-between w-full gap-10">
                         <div className="flex items-center">
                             <Link to="/">
-                                <img src="./src/assets/Logo.svg" alt="logo" />
+                                <img src="/Logo.svg" alt="logo" />
                             </Link>
                         </div>
                         <div>

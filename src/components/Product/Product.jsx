@@ -13,15 +13,15 @@ export default function Product() {
     const { add, } = useItem();
 
     const foodItems = [
-        { id: 1, name: "Domino's Pizza", image: "./src/assets/Domino's pizza.avif", price: 299, rating: 4.3, quantity: 1 },
-        { id: 2, name: "Jai Ganesh Bhojnalaya", image: "./src/assets/Jai Ganesh Bhojnalaya.avif", price: 199, rating: 4.2, quantity: 1 },
-        { id: 3, name: "Raimen's Cafe", image: "./src/assets/cake1.avif", price: 249, rating: 4.1, quantity: 1 },
-        { id: 4, name: "Pizza Hut", image: "./src/assets/Pizza Hut.avif", price: 279, rating: 4.4, quantity: 1 },
-        { id: 5, name: "Lassi & Juice Corner", image: "./src/assets/Famous Lassi & Juice Corner.avif", price: 99, rating: 4.5, quantity: 1 },
-        { id: 6, name: "Dino's Pizza", image: "./src/assets/Dino's Pizza.avif", price: 120, rating: 4.3, quantity: 1 },
-        { id: 7, name: "The Fusion Lounge", image: "./src/assets/The Fusion Lounge.avif", price: 150, rating: 4.3, quantity: 1 },
-        { id: 8, name: "Kathi Junction", image: "./src/assets/Kathi Junction.avif", price: 230, rating: 4.3, quantity: 1 },
-        { id: 9, name: "Family Restaurant", image: "./src/assets/Malwa Family Restaurant.avif", price: 399, rating: 4.3, quantity: 1 },
+        { id: 1, name: "Domino's Pizza", image: "/Domino's pizza.avif", price: 299, rating: 4.3, quantity: 1 },
+        { id: 2, name: "Jai Ganesh Bhojnalaya", image: "/Jai Ganesh Bhojnalaya.avif", price: 199, rating: 4.2, quantity: 1 },
+        { id: 3, name: "Raimen's Cafe", image: "/cake1.avif", price: 249, rating: 4.1, quantity: 1 },
+        { id: 4, name: "Pizza Hut", image: "/Pizza Hut.avif", price: 279, rating: 4.4, quantity: 1 },
+        { id: 5, name: "Lassi & Juice Corner", image: "/Famous Lassi & Juice Corner.avif", price: 99, rating: 4.5, quantity: 1 },
+        { id: 6, name: "Dino's Pizza", image: "/Dino's Pizza.avif", price: 120, rating: 4.3, quantity: 1 },
+        { id: 7, name: "The Fusion Lounge", image: "/The Fusion Lounge.avif", price: 150, rating: 4.3, quantity: 1 },
+        { id: 8, name: "Kathi Junction", image: "/Kathi Junction.avif", price: 230, rating: 4.3, quantity: 1 },
+        { id: 9, name: "Family Restaurant", image: "/Malwa Family Restaurant.avif", price: 399, rating: 4.3, quantity: 1 },
 
     ];
 
@@ -54,47 +54,47 @@ export default function Product() {
 
                         <SwiperSlide className='text-start cursor-pointer'>
                             <div>
-                                <img src="./src/assets/Biryani.avif" alt="Biryani" className='w-[10rem] h-[10rem]' />
+                                <img src="/Biryani.avif" alt="Biryani" className='w-[10rem] h-[10rem]' />
                             </div>
                             <h2 className='ml-[3.5rem] mt-3 text-xl'>Biryani</h2>
                         </SwiperSlide>
 
                         <SwiperSlide className='text-start cursor-pointer'>
                             <div className='w-[10rem] h-[10rem] rounded-full overflow-hidden'>
-                                <img src="./src/assets/Pizza.avif" alt="Pizza" className='w-[10rem] h-[10rem]' />
+                                <img src="/Pizza.avif" alt="Pizza" className='w-[10rem] h-[10rem]' />
                             </div>
                             <h2 className='ml-[3.5rem] mt-3 text-xl'>Pizza</h2>
                         </SwiperSlide>
 
                         <SwiperSlide className='text-start cursor-pointer'>
                             <div className='w-[10rem] h-[10rem] rounded-full overflow-hidden'>
-                                <img src="./src/assets/Thali.avif" alt="Thali" className='w-[10rem] h-[10rem]' />
+                                <img src="/Thali.avif" alt="Thali" className='w-[10rem] h-[10rem]' />
                             </div>
                             <h2 className='ml-[3.5rem] mt-3 text-xl'>Thali</h2>
                         </SwiperSlide>
 
                         <SwiperSlide className='text-start cursor-pointer'>
-                            <img src="./src/assets/Chicken.avif" alt="Chicken" className='w-[10rem] h-[10rem]' />
+                            <img src="/Chicken.avif" alt="Chicken" className='w-[10rem] h-[10rem]' />
                             <h2 className='ml-[3.5rem] mt-3 text-xl'>Chicken</h2>
                         </SwiperSlide>
 
                         <SwiperSlide className='text-start cursor-pointer'>
-                            <img src="./src/assets/Paneer.avif" alt="Paneer" className='w-[10rem] h-[10rem]' />
+                            <img src="/Paneer.avif" alt="Paneer" className='w-[10rem] h-[10rem]' />
                             <h2 className='ml-[3.5rem] mt-3 text-xl'>Paneer</h2>
                         </SwiperSlide>
 
                         <SwiperSlide className='text-start cursor-pointer'>
-                            <img src="./src/assets/Cake.avif" alt="Cake" className='w-[10rem] h-[10rem]' />
+                            <img src="/Cake.avif" alt="Cake" className='w-[10rem] h-[10rem]' />
                             <h2 className='ml-[3.5rem] mt-3 text-xl'>Cake</h2>
                         </SwiperSlide>
 
                         <SwiperSlide className='text-start cursor-pointer'>
-                            <img src="./src/assets/Momos.avif" alt="Momos" className='w-[10rem] h-[10rem]' />
+                            <img src="/Momos.avif" alt="Momos" className='w-[10rem] h-[10rem]' />
                             <h2 className='ml-[3.5rem] mt-3 text-xl'>Momos</h2>
                         </SwiperSlide>
 
                         <SwiperSlide className='text-start cursor-pointer'>
-                            <img src="./src/assets/Dosa.avif" alt="Dosa" className='w-[10rem] h-[10rem]' />
+                            <img src="/Dosa.avif" alt="Dosa" className='w-[10rem] h-[10rem]' />
                             <h2 className='ml-[3.5rem] mt-3 text-xl'>Dosa</h2>
                         </SwiperSlide>
                     </Swiper>
