@@ -10,7 +10,7 @@ export default function Hero() {
         <>
             <div className='container mx-auto px-20' >
                 <div>
-                    <img className="absolute top-0 right-0 -z-0 h-[45rem] w-[45rem]" src="/about-background-image.png" alt="top-bg" />
+                    <img className="absolute top-0 right-0 -z-0 h-[45rem] w-[45rem]" src="/home-banner-background.png" alt="top-bg" />
                 </div>
 
                 <div className="flex flex-row justify-between">
@@ -29,7 +29,7 @@ export default function Hero() {
 
                     {/* image */}
                     <div>
-                        <img className="relative" src="/home-banner-background.png" alt="Bowl-Imgage" />
+                        <img className="relative" src="/about-background-image.png" alt="Bowl-Imgage" />
 
                     </div>
                 </div>
