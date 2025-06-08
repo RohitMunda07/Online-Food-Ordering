@@ -17,6 +17,22 @@ export default function Header() {
         setShowAlert(false);
     };
 
+    useEffect(() => {
+        let logoutTimer;
+
+        if (isLoggedIn) {
+            logoutTimer = setTimeout(() => {
+                console.log("Auto logout triggered after timeout");
+                logout(); // Call the logout function
+            }, 5 * 60 * 1000); // ⏳ Auto logout after 30 minutes (adjust as needed)
+        }
+
+        return () => {
+            clearTimeout(logoutTimer); // Clean up on unmount or isLoggedIn change
+        };
+    }, [isLoggedIn, logout]);
+
+
     return (
         <>
             <header className=" relative z-10 container mx-auto px-20">
@@ -60,7 +76,7 @@ export default function Header() {
 
                                             {cart.length !== 0 &&
                                                 <span className='bg-red-600 text-white flex items-center justify-center text-lg rounded-full w-[1.5rem] h-[1.5rem] absolute -top-3 left-3'>
-                                                   {cart.reduce((total, item) => total + item.quantity, 0)}
+                                                    {cart.reduce((total, item) => total + item.quantity, 0)}
                                                 </span>
                                             }
                                         </i>
