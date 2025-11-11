@@ -17,7 +17,7 @@ function Layout() {
     const { showLogin, showSignUp, isLoggedIn } = useItem();
 
     return (
-        <>
+        <div className=''>
             <Header />
             {/* <Hero />
             <About />
@@ -33,7 +33,7 @@ function Layout() {
                 // <ToastContainer />
             )}
             <Footer />
-        </>
+        </div>
     )
 }
 
